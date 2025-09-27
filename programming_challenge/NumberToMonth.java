@@ -12,6 +12,8 @@ public class NumberToMonth {
 
         Month month = new Month(monthNumber);
         month.numberToMonth();
+
+        scanner.close();
     }
 }
 
